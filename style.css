@@ -1,0 +1,41 @@
+.whatever-posts .whatever-post.onerow {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2f2f2;
+	align-items: flex-start;
+}
+.whatever-posts .whatever-post.onerow .image {
+	flex-shrink: 0;
+	margin-right: 10px;
+}
+.whatever-posts .whatever-post.onerow .image a {
+	display: block;
+}
+.whatever-posts .whatever-post.onerow .image a img {
+	display: block;
+}
+
+.whatever-posts .whatever-post.onecolumn {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2f2f2;
+	align-items: flex-start;
+}
+.whatever-posts .whatever-post.onecolumn .image {
+	flex-shrink: 0;
+	margin-bottom: 20px;
+}
+
+.whatever-posts .whatever-post:last-child {
+	border-bottom: none;
+}
+.whatever-posts .whatever-post .content .title a {
+	font-weight: bold;
+}
+.whatever-posts .whatever-post .content .excerpt {
+	font-size: 10px;
+}
